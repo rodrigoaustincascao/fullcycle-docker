@@ -23,7 +23,7 @@ app.get('/', (req, res) => {
     connection.query(`SELECT name FROM people`, (error, results, fields) => {
         if (error) throw error;
         res.send(`
-        <h1>Full Cycle Rocks!!</h1>
+        <h1>Full Cycle Rocks!</h1>
         <ol>
 
             ${!!results.length ? results.map(el => `<li>${el.name}</li>`).join('') : ''}

@@ -5,6 +5,17 @@ volumes:
 
 
 services:
+  nginx:
+    build:
+      context: .
+      dockerfile: Dockerfile.nginx
+    networks:
+      - nodenet
+    tty: true
+    ports:
+      - "8080:80"
+    depends_on:
+      - app
   app:
     build:
       context: .
