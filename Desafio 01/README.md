@@ -8,7 +8,7 @@ Restrição: O tamanho da imagem deve ser inferior a 2MB.
 
 [DockerHub](https://hub.docker.com/r/racascao/hello-go)
 
-[GitHub](https://github.com/rodrigoaustincascao/fullcycle-docker)
+[GitHub](https://github.com/rodrigoaustincascao/fullcycle-docker/tree/main/Desafio%2001)
 
 ## Execução da imagem
 
