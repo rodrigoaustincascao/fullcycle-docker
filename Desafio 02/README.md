@@ -4,7 +4,6 @@ O desafio consiste em criar uma aplicação em Node.JS utilizando o nginx como p
 A aplicação, o proxy e o banco de dados estão configurados em um docker-compose, sendo necessário apenas executar os comandos no terminal
 
 ```
-cd .docker
 docker-compose up -d
 ```
 
